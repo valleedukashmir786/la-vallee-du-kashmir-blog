@@ -1,0 +1,22 @@
+# GitHub Pages Configuration
+title: La Vallée du Kashmir
+description: Restaurant indien à Boulogne-sur-Mer - Cuisine indienne et kashmirie traditionnelle
+theme: minima
+lang: fr
+url: "https://valleedukashmir786.github.io/la-vallee-du-kashmir-blog"
+baseurl: "/la-vallee-du-kashmir-blog"
+
+# SEO
+twitter:
+  username: LaValleeKashmir
+google_site_verification: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - .gitignore
+  - README.md
